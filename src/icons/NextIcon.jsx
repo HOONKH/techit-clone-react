@@ -1,11 +1,11 @@
-const NextIcon = () => {
+const NextIcon = ({ size }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      class="h-4 w-4"
+      class={size ? size : "h-4 w-4"}
     >
       <path
         strokeLinecap="round"

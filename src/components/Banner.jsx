@@ -67,6 +67,7 @@ const Banner = () => {
           autoplay={true}
           autoplaySpeed={3000}
           ref={sliderRef}
+          fade={true}
         >
           {bannerData.map((v, i) => (
             <BannerCard key={i} title={v.title} desc={v.desc} image={v.image} />
